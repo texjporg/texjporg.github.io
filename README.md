@@ -8,10 +8,6 @@ This repository will contain documentation for Japanese TeX / LaTeX users.
 
 [こちら](https://texjporg.github.io/install)をお読みください。
 
-## LaTeX 入門
-
-[こちら](https://texjporg.github.io/intro-latex)をお読みください。
-
 ## この文書のライセンス (License)
 
 このサイトのすべての文書は，クリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。
