@@ -6,7 +6,13 @@ This repository will contain documentation for Japanese TeX / LaTeX users.
 
 ## TeX のインストール・設定方法
 
+ここでは，TeX ディストリビューションのインストールと設定方法を扱います。
+統合環境やエディタの設定については扱いません。
 [こちら](https://texjporg.github.io/install)をお読みください。
+
+## texjporg の活動
+
+texjporg（日本語 TeX 開発コミュニティ）の活動内容です。
 
 ## この文書のライセンス (License)
 
