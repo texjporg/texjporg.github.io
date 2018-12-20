@@ -1,4 +1,4 @@
-# macOS (OS X, Mac OS X) でのインストールと設定
+# macOS (OS X, Mac OS X) での TeX Live のインストールと設定
 
 - TeX Live 公式のインストーラを使用する
     - install-tl を入手してターミナルから実行します。 → [こちら](./macos-tlofficial.md)

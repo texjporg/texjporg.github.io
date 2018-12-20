@@ -26,4 +26,4 @@ TeX の処理系（TeX 関連プログラム）や拡張マクロなどの一式
 
 - Windows
 - [macOS](./macos.md)
-- Linux
+- [Linux](./linux.md)
