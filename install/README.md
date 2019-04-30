@@ -21,9 +21,15 @@ TeX の処理系（TeX 関連プログラム）や拡張マクロなどの一式
 ## OS ごとの具体的手順
 
 各 OS で利用できる最新の TeX ディストリビューションをインストールする方法です。
-現在は TeX Live 2018 について説明しています。
+現在は TeX Live 2019 について説明しています。
 詳細は個別のページを参照してください。
 
 - Windows
 - [macOS](./macos.md)
 - [Linux](./linux.md)
+
+## 参考文献
+
+- [Quick install - TeX Live - TeX Users Group](https://tug.org/texlive/quickinstall.html)
+- [The TeX Live Guide—2019](https://tug.org/texlive/doc/texlive-en/texlive-en.html)
+    -[Installation](https://tug.org/texlive/doc/texlive-en/texlive-en.html#installation)
