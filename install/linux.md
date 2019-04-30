@@ -1,6 +1,6 @@
 # Linux での TeX Live のインストールと設定
 
-ここでは Linux に TeX Live 2019 をインストーラ install-tl を使ってインストール方法を説明します。FreeBSD, NetBSD などでもほぼ同じですので，参考にしてください。
+ここでは Linux に TeX Live 2019 をインストーラー install-tl を使ってインストールする方法を説明します。FreeBSD, NetBSD などでもほぼ同じですので，参考にしてください。
 
 なお，各 Linux ディストリビューションが用意しているパッケージマネージャから TeX Live をインストールすることもできます。この方法には，install-tl を使う方法と比べると次のような相違点があります：
 
