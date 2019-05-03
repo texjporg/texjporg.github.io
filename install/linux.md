@@ -1,6 +1,6 @@
 # Linux での TeX Live のインストールと設定
 
-ここでは Linux に TeX Live 2019 をインストーラー install-tl を使ってインストールする方法を説明します。FreeBSD, NetBSD などでもほぼ同じですので，参考にしてください。
+ここでは Linux (x86_64) に TeX Live 2019 をインストーラー install-tl を使ってインストールする方法を説明します。FreeBSD, NetBSD などでもほぼ同じですので，参考にしてください。
 
 なお，各 Linux ディストリビューションが用意しているパッケージマネージャから TeX Live をインストールすることもできます。この方法には，install-tl を使う方法と比べると次のような相違点があります：
 
@@ -16,12 +16,14 @@
 
 まず，インストーラーをダウンロードします。TeX Live のインストーラーは ISO イメージとネットインストーラーの2種類が提供されています。
 
-- ISO イメージはリリース時点での各種パッケージも全て含めた DVD のイメージで，そのファイルサイズは3GBを超えます。
+- ISO イメージはリリース時点での各種パッケージも全て含めた DVD のイメージで，そのファイルサイズは3GBを超えます。ただし，BSD や Solaris，および Linux i386 や ARM のバイナリは収録されていないので，これらが必要な場合はネットインストーラーを使いまます。
 - ネットインストーラーはインストーラー本体のみなのでファイルサイズは4MBほどであり，その時点での最新のパッケージを必要に応じてダウンロードしてくれます。公式に推奨されている方法です。
 
 この説明だけを読むとネットインストーラーを使えばよいように思われますが，残念なことにネットインストーラーを使うと環境によっては途中でパッケージのダウンロードに失敗して終了してしまうことがあります。さらに悪いことに，ネットインストールにはそれなりに時間がかかるのに対し，途中終了した場合にはそこから再開することができず，最初からやり直しになってしまいます。ネットワーク環境に問題がない限りは最初から ISO イメージをダウンロードしてしまった方が無難です。
 
 以下ではターミナルからダウンロードとインストーラの実行を行います。ダウンロードは wget があることを前提にしていますが，ない場合は curl や Web ブラウザで代用してももちろんよいです。
+
+プロキシを使う必要がある場合は[環境変数を設定しておいてください](https://www.google.co.jp/search?q=http_proxy)。
 
 ### ISO イメージを使う場合
 
@@ -59,12 +61,12 @@ $ su
 
  Detected platform: GNU/Linux on x86_64
 
- <B> set binary platforms: 1 out of 8
+ <B> set binary platforms: 1 out of 5
 
  <S> set installation scheme: scheme-full
 
  <C> set installation collections:
-     40 collections out of 41, disk space required: 5381 MB
+     40 collections out of 41, disk space required: 5845 MB
 
  <D> set directories:
    TEXDIR (the main TeX directory):
@@ -89,7 +91,7 @@ $ su
    [X] install macro/font doc tree
    [X] install macro/font source tree
    [ ] create symlinks to standard directories
-   [X] after install, use tlnet on CTAN for package updates
+   [X] after install, set CTAN as source for package updates
 
  <V> set up for portable installation
 
@@ -100,7 +102,6 @@ Actions:
  <Q> quit
 
 Enter command:
-
 ```
 
 このような画面が出ます。書かれている通りにコマンドを入力すると設定を変更したりインストールしたりできます。よくわからなければ，**とにかく I を入力して Enter を押せばインストールが始まります**。
@@ -129,12 +130,28 @@ Most importantly, add /usr/local/texlive/2019/bin/x86_64-linux
 to your PATH for current and future sessions.
 
 Logfile: /usr/local/texlive/2019/install-tl.log
-
 ```
 
-大事なのは最後に書いてある Most importantly ... の部分です。TeX Live のバイナリは /usr/local/texlive/2019/bin/x86_64-linux 以下にインストールされるので，ここに PATH を通さなければ使うことができません。例えば Bash を使っているならば次のようにするとよいでしょう（管理者権限と普段のユーザーの権限の両方でやること）。
+大事なのは最後に書いてある Most importantly, ... の部分です。TeX Live のバイナリは /usr/local/texlive/2019/bin/x86_64-linux 以下にインストールされるので，ここに PATH を通さなければ使うことができません。例えば Bash を使っているならば次のようにするとよいでしょう（管理者権限と普段のユーザーの権限の両方でやること）。
 
 ```
 $ echo 'PATH=/usr/local/texlive/2019/bin/x86_64-linux:$PATH' >> ~/.bashrc
+```
+
+PATH を通したら，ターミナルを再起動して動作確認をします。
 
 ```
+$ platex -version
+e-pTeX 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019)
+kpathsea version 6.3.1
+ptexenc version 1.3.7
+Copyright 2019 D.E. Knuth.
+There is NO warranty.  Redistribution of this software is
+covered by the terms of both the e-pTeX copyright and
+the Lesser GNU General Public License.
+For more information about these matters, see the file
+named COPYING and the e-pTeX source.
+Primary author of e-pTeX: Peter Breitenlohner.
+```
+
+このように "TeX Live 2019" が入ったバージョン情報が表示されればうまくできているでしょう。「platex: コマンドが見つかりません」と出る場合は PATH を通すのに失敗しているか，インストールそのものが失敗しています。インストール先のディレクトリを変更した場合は，PATH を通す先もそこにする必要があることに注意してください。
