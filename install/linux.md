@@ -32,10 +32,17 @@ $ export https_proxy=http://<host>:<port>
 
 ### ISO イメージを使う場合
 
-ISO イメージをダウンロードしてマウントします。適当な作業ディレクトリで次のようにします。
+ISO イメージをダウンロードします。
 
 ```
-$ wget http://mirror.ctan.org/systems/texlive/Images/texlive2019.iso
+$ wget -c http://mirror.ctan.org/systems/texlive/Images/texlive2019.iso
+```
+
+`-c` オプションをつけることで，途中で接続が切れてしまった場合は同じコマンドを打てば再開できます。
+
+ダウンロードが終わったらマウントします。
+
+```
 $ mkdir install-tl-2019
 $ su
 # mount -o loop texlive2019.iso install-tl-2019
