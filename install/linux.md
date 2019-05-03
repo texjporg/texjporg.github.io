@@ -32,7 +32,7 @@ $ export https_proxy=http://<host>:<port>
 
 ### ISO イメージを使う場合
 
-ISO イメージをダウンロードします。
+ISO イメージをダウンロードします。適当な作業ディレクトリで次のようにします。
 
 ```
 $ wget -c http://mirror.ctan.org/systems/texlive/Images/texlive2019.iso
