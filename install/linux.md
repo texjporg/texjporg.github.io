@@ -154,7 +154,7 @@ ISO イメージからインストールした場合はアンマウントしま�
 最後のメッセージで大事なのは `Most importantly, ...` の部分です。TeX Live のバイナリは `/usr/local/texlive/2019/bin/x86_64-linux` 以下にインストールされるので，ここに `PATH` を通さなければ使うことができません。例えば Bash を使っているならば次のようにするとよいでしょう（管理者権限と普段のユーザーの権限の両方でやること）。
 
 ```
-$ echo 'PATH=/usr/local/texlive/2019/bin/x86_64-linux:$PATH' >> ~/.bashrc
+$ echo 'export PATH=/usr/local/texlive/2019/bin/x86_64-linux:$PATH' >> ~/.bashrc
 ```
 
 `PATH` を通したら，ターミナルを再起動して動作確認をします。
