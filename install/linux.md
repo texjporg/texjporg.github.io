@@ -123,7 +123,15 @@ Enter command:
 - `D` を入力して Enter を押すと，インストール先などのディレクトリの設定ができます。TeX Live 2018 以前のバージョンが既にインストールされている場合も共存できるようになっています。
 - `O` を入力して Enter を押すと，細かなオプションの設定ができます。
 
-あとはしばらく（環境によっては長時間）待てばインストールが終わります。インストールが終わると次のメッセージが出ます。
+英語がよくわからなくて嫌な場合は，
+
+```
+# ./install-tl -gui
+```
+
+として GUI モードで起動すると環境変数に設定された言語の GUI を使ってインストールできます。日本語もあります。ただし，Tcl/Tk がインストールされている必要があります。
+
+インストールはしばらく（環境によっては長時間）待てば終わります。インストールが終わると次のメッセージが出ます。
 
 ```
 Welcome to TeX Live!
@@ -189,6 +197,66 @@ Primary author of e-pTeX: Peter Breitenlohner.
 
 ```
 # ./install-tl -repository http://ftp.jaist.ac.jp/pub/CTAN/systems/texlive/tlnet
+```
+
+# 更新
+
+管理者権限で
+
+```
+# tlmgr update --self --all
+```
+
+を実行すれば，インストールされているパッケージが最新版へと更新されます。ミラーサーバーを選択したい場合は
+
+```
+# tlmgr option repository <location of tlnet>
+```
+
+とすると，以後は設定したサーバーからダウンロードするようになります。
+
+更新した結果，バグやパッケージ間の不整合が生じてうまく動かなくなることがあります。このような場合は `restore` を実行することで前のリビジョンに戻すことができます。
+
+例えば `luatexja` を `restore` したいとします。まずは単にパッケージ名のみを与えれば
+
+```
+# tlmgr restore luatexja
+Available backups for luatexja: 50873 (2019-05-06 14:43)
+```
+
+のように利用可能なリビジョン番号が表示されます。そこで，さらにこのリビジョン番号を与えることで戻すことができます。
+
+```
+# tlmgr restore luatexja 50873
+Do you really want to restore luatexja to revision 50873 (y/N): y
+Restoring luatexja, 50873 from /usr/local/texlive/2019/tlpkg/backups/luatexja.r50873.tar.xz
+running mktexlsr ...
+done running mktexlsr.
+running mtxrun --generate ...
+done running mtxrun --generate.
+tlmgr: package log updated: /usr/local/texlive/2019/texmf-var/web2c/tlmgr.log
+```
+
+他にも，パッケージを追加でインストールしたり，アンインストールしたり，パッケージの情報を見たり，検索したりできます。詳細は
+
+```
+$ tlmgr help
+```
+
+を見てください。
+
+## GUI による管理
+
+`install-tl` と同様に `tlmgr` にも GUI が用意されています。ただし，Perl/Tk がインストールされている必要があります。日本語での表示も可能です。
+
+```
+# tlmgr gui
+```
+
+最近は新しい GUI として `tlshell` が開発されています。こちらは Tcl/Tk が必要で，日本語での表示も可能です。
+
+```
+# tlshell
 ```
 
 # アンインストール
