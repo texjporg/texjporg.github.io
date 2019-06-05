@@ -1,4 +1,4 @@
-# Linux での TeX Live のインストールと設定
+# Windows での TeX Live のインストールと設定
 
 ここでは Windows (win32) に TeX Live 2019 をインストールする方法を説明します。
 
