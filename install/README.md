@@ -24,7 +24,7 @@ TeX の処理系（TeX 関連プログラム）や拡張マクロなどの一式
 現在は TeX Live 2019 について説明しています。
 詳細は個別のページを参照してください。
 
-- Windows
+- [Windows](./windows.md)
 - [macOS](./macos.md)
 - [Linux](./linux.md)
 
