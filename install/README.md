@@ -21,7 +21,6 @@ TeX の処理系（TeX 関連プログラム）や拡張マクロなどの一式
 ## OS ごとの具体的手順
 
 各 OS で利用できる最新の TeX ディストリビューションをインストールする方法です。
-現在は TeX Live 2019 について説明しています。
 詳細は個別のページを参照してください。
 
 - [Windows](./windows.md)
@@ -30,6 +29,7 @@ TeX の処理系（TeX 関連プログラム）や拡張マクロなどの一式
 
 ## 参考文献
 
+- [TeX Live ガイド](https://www.tug.org/texlive/doc/texlive-ja/texlive-ja.pdf)
 - [Quick install - TeX Live - TeX Users Group](https://tug.org/texlive/quickinstall.html)
-- [The TeX Live Guide—2019](https://tug.org/texlive/doc/texlive-en/texlive-en.html)
-    -[Installation](https://tug.org/texlive/doc/texlive-en/texlive-en.html#installation)
+- [The TeX Live Guide](https://tug.org/texlive/doc/texlive-en/texlive-en.html)
+    - [Installation](https://tug.org/texlive/doc/texlive-en/texlive-en.html#installation)
