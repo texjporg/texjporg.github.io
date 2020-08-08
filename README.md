@@ -1,18 +1,17 @@
 # 日本語 TeX 開発コミュニティ公式ドキュメント集
 
-日本の TeX / LaTeX ユーザ向けの情報を提供するドキュメントを置く予定です。
+日本の TeX / LaTeX ユーザ向けの情報を提供するドキュメント集です。
 
-This repository will contain documentation for Japanese TeX / LaTeX users.
+This repository contains documentation for Japanese TeX / LaTeX users.
 
 ## TeX のインストール・設定方法
 
-ここでは，TeX ディストリビューションのインストールと設定方法を扱います。
+[TeX ディストリビューションのインストールと設定方法](./install)です。
 統合環境やエディタの設定については扱いません。
-[こちら](./install)をお読みください。
 
-## texjporg の活動
+## 日本語 TeX 開発コミュニティ (texjporg) の活動
 
-texjporg（日本語 TeX 開発コミュニティ）の活動内容です。
+[日本語 TeX 開発コミュニティ (texjporg) の活動内容](./activities)です。
 
 ## この文書のライセンス (License)
 
@@ -22,7 +21,7 @@ texjporg（日本語 TeX 開発コミュニティ）の活動内容です。
 
 ## 著者 (Authors)
 
-このサイトに貢献した人のリストは[こちら](./AUTHORS.md)です。
+[このサイトに貢献した人のリスト](./AUTHORS.md)です。
 
 ----
 Japanese TeX Development Community
