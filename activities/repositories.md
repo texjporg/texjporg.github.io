@@ -46,7 +46,11 @@ pTeX, upTeX の和文フォント設定を行うためのファイル群です�
 
 ## [cjk-gs-support](https://github.com/texjporg/cjk-gs-support)
 
-CJK （日中韓）フォントを Ghostscript で簡単に使えるようにする設定スクリプトです。
+CJK（日中韓）フォントを Ghostscript で簡単に使えるようにする設定スクリプトです。
+
+## [ptex2pdf](https://github.com/texjporg/ptex2pdf)
+
+(u)pTeX / (u)pLaTeX と dvipdfmx とを連続して実行し，PDF を生成するスクリプトです。
 
 ## [tex-jp-build](https://github.com/texjporg/tex-jp-build)
 

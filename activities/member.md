@@ -11,7 +11,7 @@
 * 寺田 侑祐 (Yusuke Terada, [@doraTeX](https://github.com/doraTeX))
 * 北川 弘典 (Hironori Kitagawa, [@h-kitagawa](https://github.com/h-kitagawa))
 * 前田 一貴 (Kazuki Maeda, [@kmaed](https://github.com/kmaed))
-* Norbert Preining ([@nobusan](https://github.com/norbusan))
+* Norbert Preining ([@norbusan](https://github.com/norbusan))
 
 ## メンバー
 
