@@ -1,9 +1,66 @@
-# 日本語 TeX 開発コミュニティの設立の経緯
+# 日本語 TeX 開発コミュニティに関わる主な動向
 
-[日本語 TeX 開発コミュニティ (texjporg)](https://texjp.org/)
-の設立の経緯をご紹介します。
+日本における TeX の動向と，現在の[日本語 TeX 開発コミュニティ (texjporg)](https://texjp.org/)
+に至る経緯をご紹介します。
+  
+* 1980年代  
+  TeX の日本語化の試みが始まる。  
+  ASCII が ASCII 日本語 TeX（後の pTeX）を開発。  
+  NTT が JTeX を開発。  
+* 1986年  
+  日本ソフトウェア科学会の下部組織として「日本 TeX ユーザ会」が発足。  
+  1992年（第14回）頃まで TeX ユーザ・グループ例会を開催。  
+* 1990年  
+  ASCII が『日本語 TeX テクニカルブック I』刊行。  
+* 1990年頃？  
+  奥村晴彦氏主宰 PC-VAN SIG SCIENCE で大島利雄氏が dviout/dviprt 開発開始。  
+* 1990年頃  
+  PC-VAN SIG SCIENCE で pTeX を含むフロッピーディスク回覧。  
+* 1991年  
+  奥村氏『LaTeX 美文書作成入門』刊行。  
+* 1996年  
+  Donald Knuth 氏，[京都賞受賞](https://www.kyotoprize.org/laureates/donald_ervin_knuth/)のため来日し，慶應大学などで[講演](https://www.jstage.jst.go.jp/article/jssst/14/1/14_1_83/_article/-char/ja)。  
+* 1997年  
+  Tsukuba Conference で Frank Mittelbach 氏，Yannis Haralambous 氏らが講演。  
+* 2000年  
+  東京大学駒場で[研究集会「非欧文言語における TeX」](http://web.archive.org/web/20020612020146/http://ms326.ms.u-tokyo.ac.jp/otobe/noneurotex.html)開催。  
+* 2001年  
+  奥村氏が [TeX Q & A](https://oku.edu.mie-u.ac.jp/~okumura/texfaq/qa/) 掲示板を開設（2015年まで）。  
+* 2002年  
+  ASCII がライセンスを Modified BSD license に変更した pTeX 3.0 を公開。  
+* 2003年  
+  阿瀬氏がハワイ開催の [TUG 2003](https://www.tug.org/tug2003/) に出席。  
+  この頃阿瀬氏を通じて TUG より日本のユーザ会設立の打診を受ける。  
+* 2004年頃  
+  土村展之氏が pTeX と関連するソフトウェアをインストールしやすい [ptetex](http://tutimura.ath.cx/~nob/tex/ptetex.html) にまとめ，更に UTF-8 対応を行う。  
+* 2007年  
+  奥村氏が TeX Q & A の後継として [TeX フォーラム](https://oku.edu.mie-u.ac.jp/tex/)開設。  
+* 2007年頃  
+  田中琢爾氏が upTeX を開発。  
+* 2008年頃  
+  北川弘典氏が e-pTeX を開発。  
+* 2009年  
+  pTeX 3.1.11 公開（2020 年時点でのアスキー最新版）。  
+* 2009年  
+  奥村氏，黒木裕介氏が中心となり [TeX ユーザの集い 2009](https://oku.edu.mie-u.ac.jp/texconf09/) が東京大学で開催される。  
+  これ以降，ほぼ毎年日本のユーザ会が開催され，情報交換の重要な一助となる。  
+  2014年からは木枝祐介氏が中心となって開催されており，2017年からは TeXConf という名称となっている。  
+* 2010年  
+  Norbert Preining 氏の尽力で TeX Live 2010 に pTeX, pLaTeX が初めて収録される。  
+* 2013年  
+  黒木氏が中心となり，東京で [TUG 2013](https://www.tug.org/tug2013/jp/) 開催。  
+* 2015年  
+  山本宗宏氏，黒木氏，富樫秀昭氏が [texjp.org](https://texjp.org/) を構築。  
+  [devel ML](https://ml.texjp.org/mailman/listinfo/devel) も開設。  
+* 2016年  
+  黒木氏が Github に [texjporg](https://github.com/texjporg) 開設。  
+  この頃より「コミュニティ版」の用語が使われ始める。  
+* 2016年  
+  [TeX Wiki](https://texwiki.texjp.org/) を奥村氏のサイトより texjp.org に移設。  
+* 2017年  
+  鹿野桂一郎氏が TeX ユーザーの Slack 部屋 ([TeX users slack](https://texuser.slack.com/)) を開設。  
 
-エンジニア Hub の記事「[知ってるようで知らないTeXの世界 自分の人生より歴史あるソフトウェア開発をマネジメントする技術](https://employment.en-japan.com/engineerhub/entry/2019/07/04/103000)」でも紹介されています。
+2010 年代以降の動向は，エンジニア Hub のインタービュー記事「[知ってるようで知らないTeXの世界 自分の人生より歴史あるソフトウェア開発をマネジメントする技術](https://employment.en-japan.com/engineerhub/entry/2019/07/04/103000)」でも紹介されています。
 
 ## TeX/LaTeX から pTeX/pLaTeX へ
 
