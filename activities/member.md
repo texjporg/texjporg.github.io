@@ -24,14 +24,13 @@ GitHub の[リポジトリ](repositories.md)への書き込み権限を持って
 * 北川 弘典 (Hironori Kitagawa, [@h-kitagawa](https://github.com/h-kitagawa))
 * 前田 一貴 (Kazuki Maeda, [@kmaed](https://github.com/kmaed))
 * 田中 琢爾 (Takuji TANAKA, [@t-tk](https://github.com/t-tk))
-
 * 新村 篤史 (Atsushi Shimmura, [a-shimmura](https://ja.osdn.net/projects/jalyx/))
 
 他
 
 ## 貢献者
 
-コアメンバーやメンバー以外で[リポジトリ](repositories.md)への貢献があった人です。
+上記以外で[リポジトリ](repositories.md)への貢献があった人です。
 （ここに名前を載せたい/修正したい貢献者は pull request を送ってください。）
 
 * 細田 真道 (Masamichi Hosoda, [@trueroad](https://github.com/trueroad))
