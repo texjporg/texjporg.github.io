@@ -33,7 +33,7 @@
 * 2002年  
   ASCII がライセンスを Modified BSD license に変更した pTeX 3.0 を公開。  
 * 2003年  
-  阿瀬氏がハワイ開催の [TUG 2003](https://www.tug.org/tug2003/) に出席。  
+  阿瀬はる美氏がハワイ開催の [TUG 2003](https://www.tug.org/tug2003/) に出席。  
   この頃阿瀬氏を通じて TUG より日本のユーザ会設立の打診を受ける。  
 * 2004年2月  
   土村展之氏が pTeX と関連するソフトウェアをインストールしやすい [ptetex](http://tutimura.ath.cx/~nob/tex/ptetex.html) にまとめ，更に UTF-8 対応を行う。  
@@ -66,7 +66,7 @@
 * 2016年  
   [TeX Wiki](https://texwiki.texjp.org/) を奥村氏のサイトより texjp.org に移設。  
 * 2017年  
-  鹿野桂一郎氏が TeX ユーザーの Slack 部屋 ([TeX users slack](https://texuser.slack.com/)) を開設。  
+  鹿野桂一郎氏が TeX ユーザの Slack 部屋 ([TeX users slack](https://texuser.slack.com/)) を開設。  
 
 2010 年代以降の動向は，エンジニア Hub のインタービュー記事「[知ってるようで知らないTeXの世界 自分の人生より歴史あるソフトウェア開発をマネジメントする技術](https://employment.en-japan.com/engineerhub/entry/2019/07/04/103000)」でも紹介されています。
 
