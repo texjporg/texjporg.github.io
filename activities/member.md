@@ -15,8 +15,7 @@
 
 ## メンバー
 
-取締役会のメンバー以外で
-GitHub の[リポジトリ](repositories.md)への書き込み権限を持っている人です。
+取締役会のメンバー以外です。
 （ここに名前を載せたい/修正したいメンバーは直接コミットするか pull request を送ってください。）
 
 * 山下 弘展 (Hironobu YAMASHITA, [@aminophen](https://github.com/aminophen))
@@ -24,6 +23,7 @@ GitHub の[リポジトリ](repositories.md)への書き込み権限を持って
 * 北川 弘典 (Hironori Kitagawa, [@h-kitagawa](https://github.com/h-kitagawa))
 * 前田 一貴 (Kazuki Maeda, [@kmaed](https://github.com/kmaed))
 * 田中 琢爾 (Takuji TANAKA, [@t-tk](https://github.com/t-tk))
+* 細田 真道 (Masamichi Hosoda, [@trueroad](https://github.com/trueroad))
 * 新村 篤史 (Atsushi Shimmura, [a-shimmura](https://ja.osdn.net/projects/jalyx/))
 
 他
@@ -33,6 +33,5 @@ GitHub の[リポジトリ](repositories.md)への書き込み権限を持って
 上記以外で[リポジトリ](repositories.md)への貢献があった人です。
 （ここに名前を載せたい/修正したい貢献者は pull request を送ってください。）
 
-* 細田 真道 (Masamichi Hosoda, [@trueroad](https://github.com/trueroad))
 
 他
