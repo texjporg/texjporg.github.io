@@ -102,6 +102,7 @@ ptexenc ライブラリ，内部文字コードの Unicode 化（upTeX），
   奥村氏，黒木裕介氏が中心となり [TeX ユーザの集い 2009](https://oku.edu.mie-u.ac.jp/texconf09/) が東京大学で開催される。  
   これ以降，ほぼ毎年日本のユーザ会が開催され，情報交換の重要な一助となる。  
   2014年からは木枝祐介氏が中心となって開催されており，2017年からは TeXConf という名称となっている。  
+  2020年は朝倉卓人氏により [Online.tex 2020](https://connpass.com/event/188075/) がオンラインにて開催される。  
 * 2010年  
   Norbert Preining 氏の尽力で TeX Live 2010 に pTeX, pLaTeX が初めて収録される。  
   次いで，2011年には e-pTeX が，2012年には (e-)upTeX, upLaTeX も TeX Live に収録される。  
