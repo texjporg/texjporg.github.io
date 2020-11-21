@@ -25,7 +25,7 @@ This repository contains documentation for Japanese TeX / LaTeX users.
 
 ## リクエスト (Feature Request)
 
-記述に間違いを見つけた場合，ご要望などのご連絡は [GitHub Issues](https://github.com/texjporg/texjporg.github.io/issueshttps://github.com/texjporg/texjporg.github.io/issues) へお願いいたします。
+記述に間違いを見つけた場合，ご要望などのご連絡は [GitHub Issues](https://github.com/texjporg/texjporg.github.io/issues) へお願いいたします。
 
 ----
 Japanese TeX Development Community
