@@ -45,7 +45,7 @@ pLaTeX や upLaTeX 用の新ドキュメントクラスです。
 ## [ptex-fontmaps](https://github.com/texjporg/jfontmaps)
 
 pTeX, upTeX の和文フォント設定を行うためのファイル群です。
-（※リポジトリ名は jfontmaps ですがパッケージ名は改名したため ptex-fontmaps です。）
+かつて jfontmaps という名称でしたが，日本語に加え中国語・韓国語フォント設定も追加した際に改名しました。
 
 ## [babel-japanese](https://github.com/texjporg/babel-japanese)
 
