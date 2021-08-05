@@ -35,3 +35,17 @@ Wiki という不特定多数の人が編集可能な形態ですので，
 間違っているところを修正したり，説明不足のところを加筆していただけると助かります。
 
 注意：TeX Wiki は，本コミュニティの公式見解とは限りません。
+
+
+## メーリングリストへ参加
+
+日本語 TeX 開発コミュニティで公開されている[texjp.org メーリングリスト](https://ml.texjp.org/)は，以下のとおりです。
+
+### devel – Japanese TeX Development Mailing List
+メーリングリスト[devel](https://ml.texjp.org/mailman/listinfo/devel)は日本語 TeX 開発者向けの招待制メーリングリストです。
+
+### issue – Japanese TeX development issues
+メーリングリスト[issue](https://ml.texjp.org/mailman/listinfo/issue)は日本語TeX開発で議論されるべき問題を扱います。
+それゆえ，エンドユーザの質問のためのメーリングリストでありません。
+
+また、このメーリングリストは，日本語 TeX 開発コミュニティの各リポジトリからの成果物を，CTANへ新規登録もしくは更新の申請した際の窓口（メールアドレス）となっています。
