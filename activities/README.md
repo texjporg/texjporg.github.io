@@ -7,6 +7,7 @@
 
 * [設立の経緯](establishment.md)
 * [リポジトリ](repositories.md)
+* [サービス](services.md)
 * [メンバー](member.md)
 * [日本語 TeX 開発コミュニティへ参加するには](join.md)
 
