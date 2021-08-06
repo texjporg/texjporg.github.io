@@ -5,3 +5,4 @@
 - 山下 弘展 (Hironobu YAMASHITA, [@aminophen](https://github.com/aminophen))
 - 前田 一貴 (Kazuki Maeda, [@kmaed](https://github.com/kmaed))
 - 細田 真道 (Masamichi Hosoda, [@trueroad](https://github.com/trueroad))
+- 山本 宗宏 (Munehiro Yamamoto, [@munepi](https://github.com/munepi))
