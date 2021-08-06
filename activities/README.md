@@ -22,7 +22,7 @@
 
 [TeX Live リポジトリ集](https://texlive.texjp.org/) は、おもに日本語話者の TeX ユーザに必要な TeX Live 2012 以降の各種リポジトリを自己完結した状態で保存し、提供しています。
 
- * [current](https://texlive.texjp.org/current/)：TeX Live 最新版の公式リポジトリ tlnet ミラーおよび tlcontrib ミラー
+ * [current](https://texlive.texjp.org/current/)：TeX Live 最新版の公式リポジトリ `tlnet` ミラーおよび `tlcontrib` ミラー
  * [pretest](https://texlive.texjp.org/pretest/)：TeX Live pretest の公式リポジトリ `tlpretest` ミラー（`tlnet` として）
  * 各年次バージョン：TeX Live 2012 frozen 以降の公式リポジトリ `tlnet` ならびに、
      * 補助リポジトリ `tlcontrib`（2017 から）
