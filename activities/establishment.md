@@ -120,3 +120,8 @@ ptexenc ライブラリ，内部文字コードの Unicode 化（upTeX），
   鹿野桂一郎氏が TeX ユーザの Slack 部屋 ([TeX users slack](https://texuser.slack.com/)) を開設。  
 
 2010 年代以降の動向は，エンジニア Hub のインタービュー記事「[知ってるようで知らないTeXの世界 自分の人生より歴史あるソフトウェア開発をマネジメントする技術](https://employment.en-japan.com/engineerhub/entry/2019/07/04/103000)」でも紹介されています。
+
+## 2020年代
+
+* 2021年
+  6月，角藤氏によるW32TeXの更新が終了する。（歴史的偉業として [TUG historic](https://www.tug.org/historic/) の systemx/w32tex/ に保管された。）
