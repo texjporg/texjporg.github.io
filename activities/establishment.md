@@ -124,4 +124,4 @@ ptexenc ライブラリ，内部文字コードの Unicode 化（upTeX），
 ## 2020年代
 
 * 2021年
-  6月，角藤氏によるW32TeXの更新が終了する。（歴史的偉業として [TUG historic](https://www.tug.org/historic/) の systemx/w32tex/ に保管された。）
+  6月，角藤氏によるW32TeXの更新が終了する。（歴史的偉業として [TUG historic](https://www.tug.org/historic/) の systems/w32tex/ に保管された。）
