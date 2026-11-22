@@ -48,7 +48,7 @@ TeX の存在は間もなく日本でも知られるようになり，
 * 2000年10月6日  
   東京大学駒場で[研究集会「非欧文言語における TeX」](http://web.archive.org/web/20020612020146/http://ms326.ms.u-tokyo.ac.jp/otobe/noneurotex.html)開催。  
 * 2001年  
-  奥村氏が [TeX Q & A](https://oku.edu.mie-u.ac.jp/~okumura/texfaq/qa/) 掲示板を開設（2015年まで）。  
+  奥村氏が [TeX Q & A](https://okumuralab.org/~okumura/texfaq/qa/) 掲示板を開設（2015年まで）。  
 * 2002年  
   アスキーがライセンスを Modified BSD license に変更した pTeX 3.0 を公開。  
 * 2003年  
@@ -79,7 +79,7 @@ ptexenc ライブラリ，内部文字コードの Unicode 化（upTeX），
   土村氏が ptetex3 の後継として [ptexlive](http://tutimura.ath.cx/ptexlive/) の開発を開始。  
   これが後に pTeX などを TeX Live に収録するに際してのベースとなる。  
 * 2007年10月  
-  奥村氏が TeX Q & A の後継として [TeX フォーラム](https://oku.edu.mie-u.ac.jp/tex/)開設。  
+  奥村氏が TeX Q & A の後継として [TeX フォーラム](https://okumuralab.org/tex/)開設。  
 * 2008年1月  
   北川弘典氏による e-pTeX が初めて公開される。  
 * 2009年  
@@ -99,7 +99,7 @@ ptexenc ライブラリ，内部文字コードの Unicode 化（upTeX），
 (e-)pTeX や pLaTeX も「コミュニティ版」として開発が進められています。
 
 * 2009年  
-  奥村氏，黒木裕介氏が中心となり [TeX ユーザの集い 2009](https://oku.edu.mie-u.ac.jp/texconf09/) が東京大学で開催される。  
+  奥村氏，黒木裕介氏が中心となり [TeX ユーザの集い 2009](https://okumuralab.org/texconf09/) が東京大学で開催される。  
   これ以降，ほぼ毎年日本のユーザ会が開催され，情報交換の重要な一助となる。  
   2014年からは木枝祐介氏が中心となって開催されており，2017年からは TeXConf という名称となっている。  
   2020年は朝倉卓人氏により [Online.tex 2020](https://connpass.com/event/188075/) がオンラインにて開催される。  
@@ -119,7 +119,7 @@ ptexenc ライブラリ，内部文字コードの Unicode 化（upTeX），
 * 2017年  
   鹿野桂一郎氏が TeX ユーザの Slack 部屋 ([TeX users slack](https://texuser.slack.com/)) を開設。  
 
-2010 年代以降の動向は，エンジニア Hub のインタービュー記事「[知ってるようで知らないTeXの世界 自分の人生より歴史あるソフトウェア開発をマネジメントする技術](https://employment.en-japan.com/engineerhub/entry/2019/07/04/103000)」でも紹介されています。
+2010 年代以降の動向は，エンジニア Hub のインタービュー記事「[知ってるようで知らないTeXの世界 自分の人生より歴史あるソフトウェア開発をマネジメントする技術](https://en-ambi.com/itcontents/entry/2019/07/04/103000/)」でも紹介されています。
 
 ## 2020年代
 
